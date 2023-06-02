@@ -1,9 +1,9 @@
 # Project setup
 ## Create a 'properties.env' file in './configs' directory with the following content
-DB_USER=encora   
-DB_PASS=encora   
+DB_USER=gochallenges   
+DB_PASS=gochallenges   
 DB_NAME=go-challenges   
-BEARER_TOKEN=Bearer encoraBearerTokenGoChallenges   
+BEARER_TOKEN=Bearer BearerTokenGoChallenges
 DB_IMPL=(orm or vanilla)
 
 ---

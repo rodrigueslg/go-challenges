@@ -5,9 +5,9 @@ services:
     restart: always
     environment:
       MYSQL_DATABASE: 'go-challenges'
-      MYSQL_USER: 'encora'
-      MYSQL_PASSWORD: 'encora'
-      MYSQL_ROOT_PASSWORD: 'encora'
+      MYSQL_USER: 'gochallenges'
+      MYSQL_PASSWORD: 'gochallenges'
+      MYSQL_ROOT_PASSWORD: 'gochallenges'
     ports:
       - '3306:3306'
     expose:
